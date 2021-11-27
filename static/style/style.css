@@ -30,7 +30,7 @@ input {
 }
 
 .btn-container {
-    width: 90%;
+    width: 10%;
     /* height: auto; */
     display: flex;
     justify-content: center;
