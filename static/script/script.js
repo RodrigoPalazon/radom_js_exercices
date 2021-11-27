@@ -5,10 +5,13 @@ const array = [];
 
 function printContent(id) {
     let element = document.getElementById(id);
-    let consolePrint = element.textContent;
-    array.push(consolePrint); 
+    let consolePrint = element.textContent.trim();
+    array.push(consolePrint);
+    input.value = array.toString(); 
+    
+    // console.log(typeof consolePrint)
     
     
     // document.body.appendChild(array);
-    // console.log(calcStr);
+    console.log(input.value);
   }
